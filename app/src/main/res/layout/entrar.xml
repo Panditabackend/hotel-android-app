@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="20dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar7"
+        android:layout_width="472dp"
+        android:layout_height="52dp"
+        android:background="#696A6D"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetStart="0dp"
+        app:title=""
+        app:titleTextColor="@android:color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="310dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#A47C36"
+        android:gravity="center"
+        android:text="Iniciar sesión"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="498dp" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Contraseña"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="N° de documento"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="308dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Tipo de usuario"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="310dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#A47C36"
+        android:gravity="center"
+        android:text="Iniciar sesión"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="373dp"
+        android:layout_height="241dp"
+        android:foregroundGravity="bottom"
+        app:srcCompat="@drawable/fondo_ingreso"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="209dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Olvidó contraseña?"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="575dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
