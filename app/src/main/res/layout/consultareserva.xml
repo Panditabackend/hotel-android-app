@@ -29,8 +29,8 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="131dp"
-        android:layout_height="38dp"
+        android:layout_width="133dp"
+        android:layout_height="31dp"
         app:srcCompat="@drawable/logo1"
         tools:layout_editor_absoluteX="-3dp"
         tools:layout_editor_absoluteY="0dp" />
@@ -52,28 +52,28 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="325dp"
-        android:layout_height="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="Buscar sus reservaciones"
-        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteX="13dp"
         tools:layout_editor_absoluteY="317dp" />
 
     <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView"
-        android:layout_width="326dp"
-        android:layout_height="47dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Número de itinerario o confirmación"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="363dp" />
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="375dp" />
 
     <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView2"
-        android:layout_width="322dp"
-        android:layout_height="41dp"
+        android:layout_width="296dp"
+        android:layout_height="43dp"
         android:clickable="true"
         android:text="Dirección de correo electrónico"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="423dp" />
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="433dp" />
 
     <ImageView
         android:id="@+id/imageView7"
