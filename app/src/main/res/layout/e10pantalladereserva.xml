@@ -48,8 +48,8 @@
         android:layout_height="59dp"
         android:backgroundTint="#A47C36"
         android:text="Recuperar contraseña"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="334dp" />
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="317dp" />
 
     <Button
         android:id="@+id/button12"
@@ -57,8 +57,8 @@
         android:layout_height="59dp"
         android:backgroundTint="#A47C36"
         android:text="Ingresar"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="616dp" />
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="543dp" />
 
     <Button
         android:id="@+id/button13"
@@ -67,8 +67,8 @@
         android:backgroundTint="#AFAFB1"
         android:text="Se ha enviado un link a su correo. Verifique la carpeta Spam. "
         android:textColor="#121111"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="433dp" />
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="399dp" />
 
     <ImageView
         android:id="@+id/imageView12"
