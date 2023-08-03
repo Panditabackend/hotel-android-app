@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/atardecervistahotel"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-81dp" />
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-120dp" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar8"
@@ -48,7 +48,47 @@
         android:text="DESTINOS"
         android:textColor="#716A54"
         android:textColorHighlight="@color/black"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="324dp" />
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/barranquilla"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bogota"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cali"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cartagena"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="56dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/botonavanzar"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="650dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
