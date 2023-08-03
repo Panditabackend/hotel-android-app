@@ -72,8 +72,8 @@
         android:layout_height="43dp"
         android:clickable="true"
         android:text="Dirección de correo electrónico"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="433dp" />
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="431dp" />
 
     <ImageView
         android:id="@+id/imageView7"
