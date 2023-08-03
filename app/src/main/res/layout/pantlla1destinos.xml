@@ -41,16 +41,6 @@
         tools:layout_editor_absoluteX="-3dp"
         tools:layout_editor_absoluteY="0dp" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="DESTINOS"
-        android:textColor="#716A54"
-        android:textColorHighlight="@color/black"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="268dp" />
-
     <ImageView
         android:id="@+id/imageView20"
         android:layout_width="wrap_content"
@@ -90,5 +80,13 @@
         app:srcCompat="@drawable/botonavanzar"
         tools:layout_editor_absoluteX="307dp"
         tools:layout_editor_absoluteY="650dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lineadoradadestinos"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="233dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

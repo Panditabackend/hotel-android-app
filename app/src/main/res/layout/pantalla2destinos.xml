@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar14"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#696A6D"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetStart="0dp"
+        app:title=""
+        app:titleTextColor="@android:color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-12dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/Imagen1" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lineadoradadestinos"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="419dp"
+        android:layout_height="376dp"
+        app:srcCompat="@drawable/atardecervistahotel"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="-84dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="367dp"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/ibague"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="367dp"
+        android:layout_height="91dp"
+        app:srcCompat="@drawable/paipa"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="372dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/manizales"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="375dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/medellin"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="69dp"
+        android:layout_height="59dp"
+        app:srcCompat="@drawable/botonavanzar"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
