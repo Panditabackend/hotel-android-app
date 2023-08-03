@@ -17,7 +17,7 @@
         app:title=""
         app:titleTextColor="@android:color/white"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="4dp" />
 
     <Button
         android:id="@+id/button14"
