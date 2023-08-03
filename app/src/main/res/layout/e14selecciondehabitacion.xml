@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="294dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#A47C36"
+        android:text="Seleccione habitacion"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar8"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#696A6D"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetStart="0dp"
+        app:title=""
+        app:titleTextColor="@android:color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/Imagen1" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="133dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/logo1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Fondo2"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="342dp"
+        android:layout_height="341dp"
+        app:srcCompat="@drawable/Rectanglegrande"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="20dp"
+        android:layout_height="12dp"
+        app:srcCompat="@drawable/Vector"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="20dp"
+        android:layout_height="12dp"
+        app:srcCompat="@drawable/Vector"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="20dp"
+        android:layout_height="12dp"
+        app:srcCompat="@drawable/Vector"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="20dp"
+        android:layout_height="12dp"
+        app:srcCompat="@drawable/Vector"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="20dp"
+        android:layout_height="12dp"
+        app:srcCompat="@drawable/Vector"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="343dp"
+        android:layout_height="340dp"
+        android:textAlignment="gravity"
+        app:srcCompat="@drawable/habitaciongrande"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/reseña"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="546dp" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/precio3"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="633dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESERVAR"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUPERIOR"
+        android:textColor="#A37C36"
+        android:textColorHint="#A37C36"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

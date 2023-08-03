@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#696A6D"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetStart="0dp"
+        app:title=""
+        app:titleTextColor="@android:color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/Imagen1" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/Imagen1"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="-13dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="133dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/logo1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="294dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#A47C36"
+        android:text="Recuperar contraseña"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="294dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#A47C36"
+        android:text="Ingresar"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="261dp"
+        android:layout_height="144dp"
+        android:backgroundTint="#AFAFB1"
+        android:text="Se ha enviado un link a su correo. Verifique la carpeta Spam. "
+        android:textColor="#121111"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="452dp"
+        android:layout_height="236dp"
+        app:srcCompat="@drawable/recuperarcontraseña"
+        tools:layout_editor_absoluteX="-42dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
