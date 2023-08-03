@@ -29,15 +29,15 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="0dp"
-        android:layout_height="291dp"
+        android:layout_width="350dp"
+        android:layout_height="287dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="180dp"
+        android:layout_marginBottom="292dp"
         app:layout_constraintBottom_toTopOf="@+id/button10"
         app:layout_constraintDimensionRatio="w,1:1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintHorizontal_bias="0.296"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/Fondo1" />
 
@@ -47,8 +47,8 @@
         android:layout_height="55dp"
         android:backgroundTint="#A47C36"
         android:text="RESERVA CON NOSOTROS"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="341dp" />
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="402dp" />
 
     <Button
         android:id="@+id/button6"
@@ -56,8 +56,8 @@
         android:layout_height="55dp"
         android:backgroundTint="#A3A3A2"
         android:text="DESTINOS"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="397dp" />
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="478dp" />
 
     <Button
         android:id="@+id/button7"
@@ -65,8 +65,8 @@
         android:layout_height="54dp"
         android:backgroundTint="#A47C36"
         android:text="consulta tu reserva"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="458dp" />
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="552dp" />
 
     <Button
         android:id="@+id/button10"
@@ -74,6 +74,6 @@
         android:layout_height="55dp"
         android:backgroundTint="#233C79"
         android:text="ASESOR VIRTUAL"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="514dp" />
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="629dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

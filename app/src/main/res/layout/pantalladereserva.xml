@@ -6,6 +6,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#696A6D"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetStart="0dp"
+        app:title=""
+        app:titleTextColor="@android:color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/Imagen1" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/Imagen1"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="-13dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="133dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/logo1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
     <Button
         android:id="@+id/button15"
         android:layout_width="294dp"
@@ -13,7 +49,7 @@
         android:backgroundTint="#A47C36"
         android:text="Recuperar contraseña"
         tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="596dp" />
+        tools:layout_editor_absoluteY="334dp" />
 
     <Button
         android:id="@+id/button12"
@@ -22,37 +58,24 @@
         android:backgroundTint="#A47C36"
         android:text="Ingresar"
         tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="311dp" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="373dp"
-        android:layout_height="241dp"
-        android:foregroundGravity="bottom"
-        app:srcCompat="@drawable/fondo_ingreso"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="57dp" />
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar5"
-        android:layout_width="417dp"
-        android:layout_height="59dp"
-        android:background="#696A6D"
-        android:minHeight="?attr/actionBarSize"
-        app:contentInsetStart="0dp"
-        app:title=""
-        app:titleTextColor="@android:color/white"
-        tools:layout_editor_absoluteX="-22dp"
-        tools:layout_editor_absoluteY="-3dp" />
+        tools:layout_editor_absoluteY="616dp" />
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="210dp"
-        android:layout_height="192dp"
-        android:backgroundTint="#696A6D"
+        android:layout_width="261dp"
+        android:layout_height="144dp"
+        android:backgroundTint="#AFAFB1"
         android:text="Se ha enviado un link a su correo. Verifique la carpeta Spam. "
         android:textColor="#121111"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="385dp" />
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="452dp"
+        android:layout_height="236dp"
+        app:srcCompat="@drawable/recuperarcontraseña"
+        tools:layout_editor_absoluteX="-42dp"
+        tools:layout_editor_absoluteY="67dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
